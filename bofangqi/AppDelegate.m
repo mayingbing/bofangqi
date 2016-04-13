@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MAHomeViewController.h"
-#import "MAHomeNavigationController.h"
+
 
 @interface AppDelegate ()
 
@@ -26,12 +26,9 @@
     MAHomeViewController *homeVC = [[MAHomeViewController alloc]init];
     homeVC.view.backgroundColor = [UIColor cyanColor];
     
+
     
-    
-    MAHomeNavigationController *nav = [[MAHomeNavigationController alloc]initWithRootViewController:homeVC];
-    
-    
-    self.window.rootViewController = nav;
+    self.window.rootViewController = homeVC;
     [self.window makeKeyAndVisible];
     
     

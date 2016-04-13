@@ -13,10 +13,7 @@
 		79AC6BAF1CBE5C6C008F4090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AC6BAD1CBE5C6C008F4090 /* LaunchScreen.storyboard */; };
 		79AC6BBA1CBE5C6C008F4090 /* bofangqiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC6BB91CBE5C6C008F4090 /* bofangqiTests.m */; };
 		79AC6BC51CBE5C6D008F4090 /* bofangqiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC6BC41CBE5C6D008F4090 /* bofangqiUITests.m */; };
-		79AC6BDA1CBE6AF6008F4090 /* MABaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC6BD31CBE6AF6008F4090 /* MABaseNavigationController.m */; };
-		79AC6BDB1CBE6AF6008F4090 /* MAHomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC6BD51CBE6AF6008F4090 /* MAHomeNavigationController.m */; };
 		79AC6BDC1CBE6AF6008F4090 /* MAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC6BD71CBE6AF6008F4090 /* MAHomeViewController.m */; };
-		79AC6BDD1CBE6AF6008F4090 /* UIBarButtonItem+MaBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC6BD91CBE6AF6008F4090 /* UIBarButtonItem+MaBarButtonItem.m */; };
 		E7ED4136EDE360C725BF3685 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E717E693F701D6EE5B9AD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,14 +50,8 @@
 		79AC6BC01CBE5C6D008F4090 /* bofangqiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bofangqiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AC6BC41CBE5C6D008F4090 /* bofangqiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bofangqiUITests.m; sourceTree = "<group>"; };
 		79AC6BC61CBE5C6D008F4090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79AC6BD21CBE6AF6008F4090 /* MABaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABaseNavigationController.h; sourceTree = "<group>"; };
-		79AC6BD31CBE6AF6008F4090 /* MABaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABaseNavigationController.m; sourceTree = "<group>"; };
-		79AC6BD41CBE6AF6008F4090 /* MAHomeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHomeNavigationController.h; sourceTree = "<group>"; };
-		79AC6BD51CBE6AF6008F4090 /* MAHomeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHomeNavigationController.m; sourceTree = "<group>"; };
 		79AC6BD61CBE6AF6008F4090 /* MAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHomeViewController.h; sourceTree = "<group>"; };
 		79AC6BD71CBE6AF6008F4090 /* MAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHomeViewController.m; sourceTree = "<group>"; };
-		79AC6BD81CBE6AF6008F4090 /* UIBarButtonItem+MaBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MaBarButtonItem.h"; sourceTree = "<group>"; };
-		79AC6BD91CBE6AF6008F4090 /* UIBarButtonItem+MaBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MaBarButtonItem.m"; sourceTree = "<group>"; };
 		FB2B04B97C431BDC3594CB59 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,14 +117,8 @@
 			children = (
 				79AC6BA21CBE5C6C008F4090 /* AppDelegate.h */,
 				79AC6BA31CBE5C6C008F4090 /* AppDelegate.m */,
-				79AC6BD21CBE6AF6008F4090 /* MABaseNavigationController.h */,
-				79AC6BD31CBE6AF6008F4090 /* MABaseNavigationController.m */,
-				79AC6BD41CBE6AF6008F4090 /* MAHomeNavigationController.h */,
-				79AC6BD51CBE6AF6008F4090 /* MAHomeNavigationController.m */,
 				79AC6BD61CBE6AF6008F4090 /* MAHomeViewController.h */,
 				79AC6BD71CBE6AF6008F4090 /* MAHomeViewController.m */,
-				79AC6BD81CBE6AF6008F4090 /* UIBarButtonItem+MaBarButtonItem.h */,
-				79AC6BD91CBE6AF6008F4090 /* UIBarButtonItem+MaBarButtonItem.m */,
 				79AC6BAB1CBE5C6C008F4090 /* Assets.xcassets */,
 				79AC6BAD1CBE5C6C008F4090 /* LaunchScreen.storyboard */,
 				79AC6BB01CBE5C6C008F4090 /* Info.plist */,
@@ -357,11 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				79AC6BA41CBE5C6C008F4090 /* AppDelegate.m in Sources */,
-				79AC6BDA1CBE6AF6008F4090 /* MABaseNavigationController.m in Sources */,
-				79AC6BDB1CBE6AF6008F4090 /* MAHomeNavigationController.m in Sources */,
 				79AC6BA11CBE5C6C008F4090 /* main.m in Sources */,
 				79AC6BDC1CBE6AF6008F4090 /* MAHomeViewController.m in Sources */,
-				79AC6BDD1CBE6AF6008F4090 /* UIBarButtonItem+MaBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.icar.bofangqi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -515,6 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.icar.bofangqi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
